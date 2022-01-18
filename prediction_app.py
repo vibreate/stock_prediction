@@ -51,8 +51,7 @@ def plot_chart():
                                      high=df.High,
                                      low=df.Low,
                                      close=df.Close)])
-    #fig.add_trace(go.Scatter(x=data['Date'], y =df['Open'],name='Opening Price'))
-    #fig.add_trace(go.Scatter(x=data['Date'], y =df['Close'],name='Closing Price'))
+
     
     fig.add_trace(go.Scatter(x=df.Date, y=df.MA20, name='20-day Moving Average',line=dict(color='blue', width=1)))
     fig.layout.update(autosize=False, width=950,height=593,
