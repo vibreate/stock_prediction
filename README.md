@@ -1,4 +1,4 @@
-# Stock Prediction App
+# Stock Prediction Web App
 
 
 
